@@ -1,0 +1,35 @@
+.button{
+
+display: flex;
+justify-content: left;
+padding: 20px 20px;
+background-color: aquamarine;
+}
+.vacancy{
+  display: flex;
+align-items: center;
+justify-content: center
+
+}
+.add{
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+.addbutton button{
+background-color: aquamarine;
+color: black;
+} 
+
+@media (max-width: 600px) {
+  .button {
+    flex-direction: column;
+    align-items: left;
+    padding: 10px;
+  }
+
+  .addbutton {
+    margin-top: 10px;
+  }
+}
